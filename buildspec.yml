@@ -6,7 +6,7 @@ phases:
       java: corretto11
   pre_build: 
     commands:
-     - echo nothing to do in the pre-buil stage
+     - echo nothing to do in the pre-build stage 
   build:
     commands:
      - mvn install
